@@ -13,29 +13,25 @@
 				<a href="/">Zero Type</a>
 			</div>
 			<ul id="navigation">
-				<li {activehome}>
+				<li {activeWelcome}>
 					<a href="/">Home</a>
 				</li>
-				<li {activefeature}>
+				<li {activeFeatures}>
 					<a href="/features">Features</a>
 				</li>
-				<li {activenews}>
+				<li {activeNews}>
 					<a href="/news">News</a>
 				</li>
-				<li {activeabout}>
+				<li {activeAbout}>
 					<a href="/about">About</a>
 				</li>
-				<li {activecontact}>
+				<li {activeContact}>
 					<a href="/contact">Contact</a>
 				</li>
 			</ul>
 		</div>
 	</div>
-	<div id="contents">
-		<div id="about">
-			{content}
-		</div>
-	</div>
+    {content}
 	<div id="footer">
 		<div class="clearfix">
 			<div id="connect">
