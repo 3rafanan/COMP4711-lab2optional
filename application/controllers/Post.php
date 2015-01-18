@@ -13,5 +13,5 @@ class Post extends CI_Controller {
 	}
 }
 
-/* End of file Features.php */
-/* Location: ./application/controllers/Features.php */
+/* End of file Post.php */
+/* Location: ./application/controllers/Post.php */
